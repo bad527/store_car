@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1:3306
--- 產生時間： 2024-11-06 08:52:50
+-- 產生時間： 2024-11-07 08:53:56
 -- 伺服器版本： 8.3.0
 -- PHP 版本： 8.2.18
 
@@ -35,6 +35,14 @@ CREATE TABLE IF NOT EXISTS `product_list` (
   PRIMARY KEY (`book_no`),
   UNIQUE KEY `book_no` (`book_no`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb3;
+
+--
+-- 傾印資料表的資料 `product_list`
+--
+
+INSERT INTO `product_list` (`book_no`, `book_name`, `price`) VALUES
+('P766', 'PHP&MySQL網站開發', 580),
+('P816', 'Python程式設計', 500);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

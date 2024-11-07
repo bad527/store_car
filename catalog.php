@@ -36,7 +36,7 @@
                 echo "<td>".$row["book_no"]."</td>";
                 echo "<td>".$row["book_name"]."</td>";
                 echo "<td>".$row["price"]."</td>";
-                echo "<td><input='text' name='quantity' size='5' value='1'></td>";
+                echo "<td><input type='text' name='quantity' size='5' value='1'></td>";
                 echo "<td><input type='submit' value='放入購物車'></td>";
                 echo "</tr>";
                 echo "</form>";
